@@ -1,0 +1,24 @@
+{
+  "name": "microphone-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node database-setup && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sqlite": "^4.0.11",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "@types/react": "^16.9.38",
+    "typescript": "^3.9.5"
+  }
+}

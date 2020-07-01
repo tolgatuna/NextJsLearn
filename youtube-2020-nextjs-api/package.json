@@ -1,0 +1,14 @@
+{
+  "name": "youtube-2020-nextjs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 4000 -w db.json -d 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
